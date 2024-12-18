@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indented Paragraphs</title>
+</head>
+<body>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet.&nbsp; Lorem ipsum dolor sit amet. &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, expedita. purposes.</p>
+    
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;This is the second paragraph, similarly indented using the &nbsp; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur molestiae nostrum totam vitae voluptatem illum perspiciatis nulla ab.</p>
+</body>
+</html>
