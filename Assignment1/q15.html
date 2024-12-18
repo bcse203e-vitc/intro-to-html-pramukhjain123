@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Envelope Address Format</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .envelope {
+            width: 600px;
+            height: 400px;
+            border: 2px solid #000;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .sender-address {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .receiver-address {
+            position: absolute;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Envelope Address Format</h1>
+    <div class="envelope">
+        <!-- Sender's Address -->
+        <div class="sender-address">
+            <strong>Sender:</strong><br>
+            Pramukh Rajendra Jain<br>
+            789 Green Avenue<br>
+            Suite 10A<br>
+            Phoenix, AZ 85004<br>
+            USA
+        </div>
+
+        <!-- Receiver's Address -->
+        <div class="receiver-address">
+            <strong>Receiver:</strong><br>
+            John Doe<br>
+            321 Oak Street<br>
+            Unit 5C<br>
+            Austin, TX 78701<br>
+            USA
+        </div>
+    </div>
+</body>
+</html>
